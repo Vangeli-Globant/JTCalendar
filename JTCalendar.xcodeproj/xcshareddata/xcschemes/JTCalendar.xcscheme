@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0910"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "163901681FD4975200C554BC"
+               BlueprintIdentifier = "A6E462A01FD65D9E002BEE59"
                BuildableName = "JTCalendar.framework"
                BlueprintName = "JTCalendar"
                ReferencedContainer = "container:JTCalendar.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "163901681FD4975200C554BC"
+            BlueprintIdentifier = "A6E462A01FD65D9E002BEE59"
             BuildableName = "JTCalendar.framework"
             BlueprintName = "JTCalendar"
             ReferencedContainer = "container:JTCalendar.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "163901681FD4975200C554BC"
+            BlueprintIdentifier = "A6E462A01FD65D9E002BEE59"
             BuildableName = "JTCalendar.framework"
             BlueprintName = "JTCalendar"
             ReferencedContainer = "container:JTCalendar.xcodeproj">

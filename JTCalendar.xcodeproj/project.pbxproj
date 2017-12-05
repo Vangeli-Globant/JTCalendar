@@ -7,81 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163901C31FD49C1700C554BC /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901C11FD49C1700C554BC /* JTCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901C71FD49D1500C554BC /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901871FD4987A00C554BC /* JTCalendarManager.m */; };
-		163901C81FD49D3600C554BC /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901781FD4987A00C554BC /* JTCalendarSettings.m */; };
-		163901C91FD49D3600C554BC /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901891FD4987B00C554BC /* JTDateHelper.m */; };
-		163901CA1FD49D3600C554BC /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901831FD4987A00C554BC /* JTCalendarDelegateManager.m */; };
-		163901CB1FD49D3600C554BC /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901851FD4987A00C554BC /* JTCalendarScrollManager.m */; };
-		163901CC1FD49D3600C554BC /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1639018C1FD4987B00C554BC /* JTCalendarDayView.m */; };
-		163901CD1FD49D3600C554BC /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1639018E1FD4987B00C554BC /* JTCalendarMenuView.m */; };
-		163901CE1FD49D3600C554BC /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901901FD4987B00C554BC /* JTCalendarPageView.m */; };
-		163901CF1FD49D3600C554BC /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901921FD4987B00C554BC /* JTCalendarWeekDayView.m */; };
-		163901D01FD49D3600C554BC /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901941FD4987B00C554BC /* JTCalendarWeekView.m */; };
-		163901D11FD49D3600C554BC /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901961FD4987B00C554BC /* JTHorizontalCalendarView.m */; };
-		163901D21FD49D3600C554BC /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163901981FD4987B00C554BC /* JTVerticalCalendarView.m */; };
-		163901D31FD49D4800C554BC /* JTCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901801FD4987A00C554BC /* JTCalendarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D41FD49D4800C554BC /* JTCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901771FD4987A00C554BC /* JTCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D51FD49D4800C554BC /* JTCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901881FD4987B00C554BC /* JTCalendarSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D61FD49D4800C554BC /* JTDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901861FD4987A00C554BC /* JTDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D71FD49D4800C554BC /* JTCalendarDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901821FD4987A00C554BC /* JTCalendarDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D81FD49D4800C554BC /* JTCalendarScrollManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901841FD4987A00C554BC /* JTCalendarScrollManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901D91FD49D4800C554BC /* JTCalendarDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017A1FD4987A00C554BC /* JTCalendarDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DA1FD49D4800C554BC /* JTCalendarPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017B1FD4987A00C554BC /* JTCalendarPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DB1FD49D4800C554BC /* JTCalendarWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017C1FD4987A00C554BC /* JTCalendarWeek.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DC1FD49D4800C554BC /* JTCalendarWeekDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017D1FD4987A00C554BC /* JTCalendarWeekDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DD1FD49D4800C554BC /* JTContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017E1FD4987A00C554BC /* JTContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DE1FD49D4800C554BC /* JTMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639017F1FD4987A00C554BC /* JTMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901DF1FD49D4800C554BC /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639018B1FD4987B00C554BC /* JTCalendarDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E01FD49D4800C554BC /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639018D1FD4987B00C554BC /* JTCalendarMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E11FD49D4800C554BC /* JTCalendarPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1639018F1FD4987B00C554BC /* JTCalendarPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E21FD49D4800C554BC /* JTCalendarWeekDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901911FD4987B00C554BC /* JTCalendarWeekDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E31FD49D4800C554BC /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901931FD4987B00C554BC /* JTCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E41FD49D4800C554BC /* JTHorizontalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901951FD4987B00C554BC /* JTHorizontalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163901E51FD49D4800C554BC /* JTVerticalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163901971FD4987B00C554BC /* JTVerticalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C001FD6612200950426 /* JTCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639BF61FD6612200950426 /* JTCalendarSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C021FD6612200950426 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639BF81FD6612200950426 /* JTCalendarSettings.m */; };
+		A6639C031FD6612200950426 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639BF91FD6612200950426 /* JTCalendarManager.m */; };
+		A6639C041FD6612200950426 /* JTDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639BFA1FD6612200950426 /* JTDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C051FD6612200950426 /* JTCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639BFB1FD6612200950426 /* JTCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C071FD6612200950426 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639BFD1FD6612200950426 /* JTDateHelper.m */; };
+		A6639C091FD6612200950426 /* JTCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639BFF1FD6612200950426 /* JTCalendarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C271FD661D900950426 /* JTCalendarDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C0D1FD661D900950426 /* JTCalendarDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C281FD661D900950426 /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C0E1FD661D900950426 /* JTCalendarDelegateManager.m */; };
+		A6639C291FD661D900950426 /* JTCalendarScrollManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C0F1FD661D900950426 /* JTCalendarScrollManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C2A1FD661D900950426 /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C101FD661D900950426 /* JTCalendarScrollManager.m */; };
+		A6639C2B1FD661D900950426 /* JTCalendarDay.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C121FD661D900950426 /* JTCalendarDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C2C1FD661D900950426 /* JTCalendarPage.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C131FD661D900950426 /* JTCalendarPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C2D1FD661D900950426 /* JTCalendarWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C141FD661D900950426 /* JTCalendarWeek.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C2E1FD661D900950426 /* JTCalendarWeekDay.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C151FD661D900950426 /* JTCalendarWeekDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C2F1FD661D900950426 /* JTContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C161FD661D900950426 /* JTContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C301FD661D900950426 /* JTMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C171FD661D900950426 /* JTMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C311FD661D900950426 /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C191FD661D900950426 /* JTCalendarDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C321FD661D900950426 /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C1A1FD661D900950426 /* JTCalendarDayView.m */; };
+		A6639C331FD661D900950426 /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C1B1FD661D900950426 /* JTCalendarMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C341FD661D900950426 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C1C1FD661D900950426 /* JTCalendarMenuView.m */; };
+		A6639C351FD661D900950426 /* JTCalendarPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C1D1FD661D900950426 /* JTCalendarPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C361FD661D900950426 /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C1E1FD661D900950426 /* JTCalendarPageView.m */; };
+		A6639C371FD661D900950426 /* JTCalendarWeekDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C1F1FD661D900950426 /* JTCalendarWeekDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C381FD661D900950426 /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C201FD661D900950426 /* JTCalendarWeekDayView.m */; };
+		A6639C391FD661D900950426 /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C211FD661D900950426 /* JTCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C3A1FD661D900950426 /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C221FD661D900950426 /* JTCalendarWeekView.m */; };
+		A6639C3B1FD661D900950426 /* JTHorizontalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C231FD661D900950426 /* JTHorizontalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C3C1FD661D900950426 /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C241FD661D900950426 /* JTHorizontalCalendarView.m */; };
+		A6639C3D1FD661D900950426 /* JTVerticalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6639C251FD661D900950426 /* JTVerticalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6639C3E1FD661D900950426 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6639C261FD661D900950426 /* JTVerticalCalendarView.m */; };
+		A6E462A61FD65D9E002BEE59 /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E462A41FD65D9E002BEE59 /* JTCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		163901741FD4983D00C554BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Carthage Support/Info.plist"; sourceTree = SOURCE_ROOT; };
-		163901771FD4987A00C554BC /* JTCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarManager.h; sourceTree = "<group>"; };
-		163901781FD4987A00C554BC /* JTCalendarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarSettings.m; sourceTree = "<group>"; };
-		1639017A1FD4987A00C554BC /* JTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDay.h; sourceTree = "<group>"; };
-		1639017B1FD4987A00C554BC /* JTCalendarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPage.h; sourceTree = "<group>"; };
-		1639017C1FD4987A00C554BC /* JTCalendarWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeek.h; sourceTree = "<group>"; };
-		1639017D1FD4987A00C554BC /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDay.h; sourceTree = "<group>"; };
-		1639017E1FD4987A00C554BC /* JTContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTContent.h; sourceTree = "<group>"; };
-		1639017F1FD4987A00C554BC /* JTMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMenu.h; sourceTree = "<group>"; };
-		163901801FD4987A00C554BC /* JTCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegate.h; sourceTree = "<group>"; };
-		163901821FD4987A00C554BC /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegateManager.h; sourceTree = "<group>"; };
-		163901831FD4987A00C554BC /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDelegateManager.m; sourceTree = "<group>"; };
-		163901841FD4987A00C554BC /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarScrollManager.h; sourceTree = "<group>"; };
-		163901851FD4987A00C554BC /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarScrollManager.m; sourceTree = "<group>"; };
-		163901861FD4987A00C554BC /* JTDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDateHelper.h; sourceTree = "<group>"; };
-		163901871FD4987A00C554BC /* JTCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarManager.m; sourceTree = "<group>"; };
-		163901881FD4987B00C554BC /* JTCalendarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarSettings.h; sourceTree = "<group>"; };
-		163901891FD4987B00C554BC /* JTDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDateHelper.m; sourceTree = "<group>"; };
-		1639018B1FD4987B00C554BC /* JTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDayView.h; sourceTree = "<group>"; };
-		1639018C1FD4987B00C554BC /* JTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDayView.m; sourceTree = "<group>"; };
-		1639018D1FD4987B00C554BC /* JTCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuView.h; sourceTree = "<group>"; };
-		1639018E1FD4987B00C554BC /* JTCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuView.m; sourceTree = "<group>"; };
-		1639018F1FD4987B00C554BC /* JTCalendarPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPageView.h; sourceTree = "<group>"; };
-		163901901FD4987B00C554BC /* JTCalendarPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarPageView.m; sourceTree = "<group>"; };
-		163901911FD4987B00C554BC /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDayView.h; sourceTree = "<group>"; };
-		163901921FD4987B00C554BC /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekDayView.m; sourceTree = "<group>"; };
-		163901931FD4987B00C554BC /* JTCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekView.h; sourceTree = "<group>"; };
-		163901941FD4987B00C554BC /* JTCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekView.m; sourceTree = "<group>"; };
-		163901951FD4987B00C554BC /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHorizontalCalendarView.h; sourceTree = "<group>"; };
-		163901961FD4987B00C554BC /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHorizontalCalendarView.m; sourceTree = "<group>"; };
-		163901971FD4987B00C554BC /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTVerticalCalendarView.h; sourceTree = "<group>"; };
-		163901981FD4987B00C554BC /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTVerticalCalendarView.m; sourceTree = "<group>"; };
-		163901991FD4987B00C554BC /* JTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
-		163901BF1FD49C1700C554BC /* JTCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		163901C11FD49C1700C554BC /* JTCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
-		163901C21FD49C1700C554BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6639BF61FD6612200950426 /* JTCalendarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarSettings.h; sourceTree = "<group>"; };
+		A6639BF81FD6612200950426 /* JTCalendarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarSettings.m; sourceTree = "<group>"; };
+		A6639BF91FD6612200950426 /* JTCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarManager.m; sourceTree = "<group>"; };
+		A6639BFA1FD6612200950426 /* JTDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDateHelper.h; sourceTree = "<group>"; };
+		A6639BFB1FD6612200950426 /* JTCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarManager.h; sourceTree = "<group>"; };
+		A6639BFD1FD6612200950426 /* JTDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDateHelper.m; sourceTree = "<group>"; };
+		A6639BFF1FD6612200950426 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegate.h; sourceTree = "<group>"; };
+		A6639C0D1FD661D900950426 /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		A6639C0E1FD661D900950426 /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		A6639C0F1FD661D900950426 /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		A6639C101FD661D900950426 /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		A6639C121FD661D900950426 /* JTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDay.h; sourceTree = "<group>"; };
+		A6639C131FD661D900950426 /* JTCalendarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPage.h; sourceTree = "<group>"; };
+		A6639C141FD661D900950426 /* JTCalendarWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeek.h; sourceTree = "<group>"; };
+		A6639C151FD661D900950426 /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		A6639C161FD661D900950426 /* JTContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTContent.h; sourceTree = "<group>"; };
+		A6639C171FD661D900950426 /* JTMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMenu.h; sourceTree = "<group>"; };
+		A6639C191FD661D900950426 /* JTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDayView.h; sourceTree = "<group>"; };
+		A6639C1A1FD661D900950426 /* JTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDayView.m; sourceTree = "<group>"; };
+		A6639C1B1FD661D900950426 /* JTCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuView.h; sourceTree = "<group>"; };
+		A6639C1C1FD661D900950426 /* JTCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuView.m; sourceTree = "<group>"; };
+		A6639C1D1FD661D900950426 /* JTCalendarPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPageView.h; sourceTree = "<group>"; };
+		A6639C1E1FD661D900950426 /* JTCalendarPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarPageView.m; sourceTree = "<group>"; };
+		A6639C1F1FD661D900950426 /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		A6639C201FD661D900950426 /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		A6639C211FD661D900950426 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekView.h; sourceTree = "<group>"; };
+		A6639C221FD661D900950426 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekView.m; sourceTree = "<group>"; };
+		A6639C231FD661D900950426 /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		A6639C241FD661D900950426 /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		A6639C251FD661D900950426 /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		A6639C261FD661D900950426 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		A6E462A11FD65D9E002BEE59 /* JTCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E462A41FD65D9E002BEE59 /* JTCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
+		A6E462A51FD65D9E002BEE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		163901BB1FD49C1700C554BC /* Frameworks */ = {
+		A6E4629D1FD65D9E002BEE59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,100 +89,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1639015F1FD4975200C554BC = {
+		A6639C0B1FD6613100950426 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1639016B1FD4975200C554BC /* JTCalendar */,
-				163901C01FD49C1700C554BC /* JTCalendar */,
-				1639016A1FD4975200C554BC /* Products */,
+				A6639C0C1FD661D900950426 /* Managers */,
+				A6639C111FD661D900950426 /* Protocols */,
+				A6639C181FD661D900950426 /* Views */,
+				A6E462A41FD65D9E002BEE59 /* JTCalendar.h */,
+				A6639BFF1FD6612200950426 /* JTCalendarDelegate.h */,
+				A6639BFB1FD6612200950426 /* JTCalendarManager.h */,
+				A6639BF91FD6612200950426 /* JTCalendarManager.m */,
+				A6639BF61FD6612200950426 /* JTCalendarSettings.h */,
+				A6639BF81FD6612200950426 /* JTCalendarSettings.m */,
+				A6639BFA1FD6612200950426 /* JTDateHelper.h */,
+				A6639BFD1FD6612200950426 /* JTDateHelper.m */,
 			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
-		1639016A1FD4975200C554BC /* Products */ = {
+		A6639C0C1FD661D900950426 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				163901BF1FD49C1700C554BC /* JTCalendar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1639016B1FD4975200C554BC /* JTCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				163901741FD4983D00C554BC /* Info.plist */,
-				163901761FD4986100C554BC /* source files */,
-			);
-			path = JTCalendar;
-			sourceTree = "<group>";
-		};
-		163901761FD4986100C554BC /* source files */ = {
-			isa = PBXGroup;
-			children = (
-				163901991FD4987B00C554BC /* JTCalendar.h */,
-				163901801FD4987A00C554BC /* JTCalendarDelegate.h */,
-				163901771FD4987A00C554BC /* JTCalendarManager.h */,
-				163901871FD4987A00C554BC /* JTCalendarManager.m */,
-				163901881FD4987B00C554BC /* JTCalendarSettings.h */,
-				163901781FD4987A00C554BC /* JTCalendarSettings.m */,
-				163901861FD4987A00C554BC /* JTDateHelper.h */,
-				163901891FD4987B00C554BC /* JTDateHelper.m */,
-				163901811FD4987A00C554BC /* Managers */,
-				163901791FD4987A00C554BC /* Protocols */,
-				1639018A1FD4987B00C554BC /* Views */,
-			);
-			name = "source files";
-			sourceTree = "<group>";
-		};
-		163901791FD4987A00C554BC /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				1639017A1FD4987A00C554BC /* JTCalendarDay.h */,
-				1639017B1FD4987A00C554BC /* JTCalendarPage.h */,
-				1639017C1FD4987A00C554BC /* JTCalendarWeek.h */,
-				1639017D1FD4987A00C554BC /* JTCalendarWeekDay.h */,
-				1639017E1FD4987A00C554BC /* JTContent.h */,
-				1639017F1FD4987A00C554BC /* JTMenu.h */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		163901811FD4987A00C554BC /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				163901821FD4987A00C554BC /* JTCalendarDelegateManager.h */,
-				163901831FD4987A00C554BC /* JTCalendarDelegateManager.m */,
-				163901841FD4987A00C554BC /* JTCalendarScrollManager.h */,
-				163901851FD4987A00C554BC /* JTCalendarScrollManager.m */,
+				A6639C0D1FD661D900950426 /* JTCalendarDelegateManager.h */,
+				A6639C0E1FD661D900950426 /* JTCalendarDelegateManager.m */,
+				A6639C0F1FD661D900950426 /* JTCalendarScrollManager.h */,
+				A6639C101FD661D900950426 /* JTCalendarScrollManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		1639018A1FD4987B00C554BC /* Views */ = {
+		A6639C111FD661D900950426 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				1639018B1FD4987B00C554BC /* JTCalendarDayView.h */,
-				1639018C1FD4987B00C554BC /* JTCalendarDayView.m */,
-				1639018D1FD4987B00C554BC /* JTCalendarMenuView.h */,
-				1639018E1FD4987B00C554BC /* JTCalendarMenuView.m */,
-				1639018F1FD4987B00C554BC /* JTCalendarPageView.h */,
-				163901901FD4987B00C554BC /* JTCalendarPageView.m */,
-				163901911FD4987B00C554BC /* JTCalendarWeekDayView.h */,
-				163901921FD4987B00C554BC /* JTCalendarWeekDayView.m */,
-				163901931FD4987B00C554BC /* JTCalendarWeekView.h */,
-				163901941FD4987B00C554BC /* JTCalendarWeekView.m */,
-				163901951FD4987B00C554BC /* JTHorizontalCalendarView.h */,
-				163901961FD4987B00C554BC /* JTHorizontalCalendarView.m */,
-				163901971FD4987B00C554BC /* JTVerticalCalendarView.h */,
-				163901981FD4987B00C554BC /* JTVerticalCalendarView.m */,
+				A6639C121FD661D900950426 /* JTCalendarDay.h */,
+				A6639C131FD661D900950426 /* JTCalendarPage.h */,
+				A6639C141FD661D900950426 /* JTCalendarWeek.h */,
+				A6639C151FD661D900950426 /* JTCalendarWeekDay.h */,
+				A6639C161FD661D900950426 /* JTContent.h */,
+				A6639C171FD661D900950426 /* JTMenu.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A6639C181FD661D900950426 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6639C191FD661D900950426 /* JTCalendarDayView.h */,
+				A6639C1A1FD661D900950426 /* JTCalendarDayView.m */,
+				A6639C1B1FD661D900950426 /* JTCalendarMenuView.h */,
+				A6639C1C1FD661D900950426 /* JTCalendarMenuView.m */,
+				A6639C1D1FD661D900950426 /* JTCalendarPageView.h */,
+				A6639C1E1FD661D900950426 /* JTCalendarPageView.m */,
+				A6639C1F1FD661D900950426 /* JTCalendarWeekDayView.h */,
+				A6639C201FD661D900950426 /* JTCalendarWeekDayView.m */,
+				A6639C211FD661D900950426 /* JTCalendarWeekView.h */,
+				A6639C221FD661D900950426 /* JTCalendarWeekView.m */,
+				A6639C231FD661D900950426 /* JTHorizontalCalendarView.h */,
+				A6639C241FD661D900950426 /* JTHorizontalCalendarView.m */,
+				A6639C251FD661D900950426 /* JTVerticalCalendarView.h */,
+				A6639C261FD661D900950426 /* JTVerticalCalendarView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		163901C01FD49C1700C554BC /* JTCalendar */ = {
+		A6E462971FD65D9E002BEE59 = {
 			isa = PBXGroup;
 			children = (
-				163901C11FD49C1700C554BC /* JTCalendar.h */,
-				163901C21FD49C1700C554BC /* Info.plist */,
+				A6E462A31FD65D9E002BEE59 /* JTCalendar */,
+				A6E462A21FD65D9E002BEE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E462A21FD65D9E002BEE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E462A11FD65D9E002BEE59 /* JTCalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E462A31FD65D9E002BEE59 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A6639C0B1FD6613100950426 /* Sources */,
+				A6E462A51FD65D9E002BEE59 /* Info.plist */,
 			);
 			path = JTCalendar;
 			sourceTree = "<group>";
@@ -192,44 +180,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		163901BC1FD49C1700C554BC /* Headers */ = {
+		A6E4629E1FD65D9E002BEE59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163901C31FD49C1700C554BC /* JTCalendar.h in Headers */,
-				163901D41FD49D4800C554BC /* JTCalendarManager.h in Headers */,
-				163901E41FD49D4800C554BC /* JTHorizontalCalendarView.h in Headers */,
-				163901E51FD49D4800C554BC /* JTVerticalCalendarView.h in Headers */,
-				163901E01FD49D4800C554BC /* JTCalendarMenuView.h in Headers */,
-				163901E11FD49D4800C554BC /* JTCalendarPageView.h in Headers */,
-				163901E21FD49D4800C554BC /* JTCalendarWeekDayView.h in Headers */,
-				163901E31FD49D4800C554BC /* JTCalendarWeekView.h in Headers */,
-				163901D31FD49D4800C554BC /* JTCalendarDelegate.h in Headers */,
-				163901D51FD49D4800C554BC /* JTCalendarSettings.h in Headers */,
-				163901D61FD49D4800C554BC /* JTDateHelper.h in Headers */,
-				163901D71FD49D4800C554BC /* JTCalendarDelegateManager.h in Headers */,
-				163901D81FD49D4800C554BC /* JTCalendarScrollManager.h in Headers */,
-				163901D91FD49D4800C554BC /* JTCalendarDay.h in Headers */,
-				163901DA1FD49D4800C554BC /* JTCalendarPage.h in Headers */,
-				163901DB1FD49D4800C554BC /* JTCalendarWeek.h in Headers */,
-				163901DC1FD49D4800C554BC /* JTCalendarWeekDay.h in Headers */,
-				163901DD1FD49D4800C554BC /* JTContent.h in Headers */,
-				163901DE1FD49D4800C554BC /* JTMenu.h in Headers */,
-				163901DF1FD49D4800C554BC /* JTCalendarDayView.h in Headers */,
+				A6639C331FD661D900950426 /* JTCalendarMenuView.h in Headers */,
+				A6639C051FD6612200950426 /* JTCalendarManager.h in Headers */,
+				A6E462A61FD65D9E002BEE59 /* JTCalendar.h in Headers */,
+				A6639C391FD661D900950426 /* JTCalendarWeekView.h in Headers */,
+				A6639C3B1FD661D900950426 /* JTHorizontalCalendarView.h in Headers */,
+				A6639C091FD6612200950426 /* JTCalendarDelegate.h in Headers */,
+				A6639C2B1FD661D900950426 /* JTCalendarDay.h in Headers */,
+				A6639C271FD661D900950426 /* JTCalendarDelegateManager.h in Headers */,
+				A6639C2C1FD661D900950426 /* JTCalendarPage.h in Headers */,
+				A6639C311FD661D900950426 /* JTCalendarDayView.h in Headers */,
+				A6639C2F1FD661D900950426 /* JTContent.h in Headers */,
+				A6639C3D1FD661D900950426 /* JTVerticalCalendarView.h in Headers */,
+				A6639C001FD6612200950426 /* JTCalendarSettings.h in Headers */,
+				A6639C371FD661D900950426 /* JTCalendarWeekDayView.h in Headers */,
+				A6639C351FD661D900950426 /* JTCalendarPageView.h in Headers */,
+				A6639C291FD661D900950426 /* JTCalendarScrollManager.h in Headers */,
+				A6639C2D1FD661D900950426 /* JTCalendarWeek.h in Headers */,
+				A6639C2E1FD661D900950426 /* JTCalendarWeekDay.h in Headers */,
+				A6639C301FD661D900950426 /* JTMenu.h in Headers */,
+				A6639C041FD6612200950426 /* JTDateHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		163901BE1FD49C1700C554BC /* JTCalendar */ = {
+		A6E462A01FD65D9E002BEE59 /* JTCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 163901C41FD49C1700C554BC /* Build configuration list for PBXNativeTarget "JTCalendar" */;
+			buildConfigurationList = A6E462A91FD65D9E002BEE59 /* Build configuration list for PBXNativeTarget "JTCalendar" */;
 			buildPhases = (
-				163901BA1FD49C1700C554BC /* Sources */,
-				163901BB1FD49C1700C554BC /* Frameworks */,
-				163901BC1FD49C1700C554BC /* Headers */,
-				163901BD1FD49C1700C554BC /* Resources */,
+				A6E4629C1FD65D9E002BEE59 /* Sources */,
+				A6E4629D1FD65D9E002BEE59 /* Frameworks */,
+				A6E4629E1FD65D9E002BEE59 /* Headers */,
+				A6E4629F1FD65D9E002BEE59 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -237,42 +225,42 @@
 			);
 			name = JTCalendar;
 			productName = JTCalendar;
-			productReference = 163901BF1FD49C1700C554BC /* JTCalendar.framework */;
+			productReference = A6E462A11FD65D9E002BEE59 /* JTCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		163901601FD4975200C554BC /* Project object */ = {
+		A6E462981FD65D9E002BEE59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0910;
 				TargetAttributes = {
-					163901BE1FD49C1700C554BC = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					A6E462A01FD65D9E002BEE59 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 163901631FD4975200C554BC /* Build configuration list for PBXProject "JTCalendar" */;
+			buildConfigurationList = A6E4629B1FD65D9E002BEE59 /* Build configuration list for PBXProject "JTCalendar" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1639015F1FD4975200C554BC;
-			productRefGroup = 1639016A1FD4975200C554BC /* Products */;
+			mainGroup = A6E462971FD65D9E002BEE59;
+			productRefGroup = A6E462A21FD65D9E002BEE59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				163901BE1FD49C1700C554BC /* JTCalendar */,
+				A6E462A01FD65D9E002BEE59 /* JTCalendar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		163901BD1FD49C1700C554BC /* Resources */ = {
+		A6E4629F1FD65D9E002BEE59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,29 +270,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		163901BA1FD49C1700C554BC /* Sources */ = {
+		A6E4629C1FD65D9E002BEE59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163901C81FD49D3600C554BC /* JTCalendarSettings.m in Sources */,
-				163901C91FD49D3600C554BC /* JTDateHelper.m in Sources */,
-				163901CA1FD49D3600C554BC /* JTCalendarDelegateManager.m in Sources */,
-				163901CB1FD49D3600C554BC /* JTCalendarScrollManager.m in Sources */,
-				163901CC1FD49D3600C554BC /* JTCalendarDayView.m in Sources */,
-				163901CD1FD49D3600C554BC /* JTCalendarMenuView.m in Sources */,
-				163901CE1FD49D3600C554BC /* JTCalendarPageView.m in Sources */,
-				163901CF1FD49D3600C554BC /* JTCalendarWeekDayView.m in Sources */,
-				163901D01FD49D3600C554BC /* JTCalendarWeekView.m in Sources */,
-				163901D11FD49D3600C554BC /* JTHorizontalCalendarView.m in Sources */,
-				163901D21FD49D3600C554BC /* JTVerticalCalendarView.m in Sources */,
-				163901C71FD49D1500C554BC /* JTCalendarManager.m in Sources */,
+				A6639C3E1FD661D900950426 /* JTVerticalCalendarView.m in Sources */,
+				A6639C3A1FD661D900950426 /* JTCalendarWeekView.m in Sources */,
+				A6639C341FD661D900950426 /* JTCalendarMenuView.m in Sources */,
+				A6639C281FD661D900950426 /* JTCalendarDelegateManager.m in Sources */,
+				A6639C2A1FD661D900950426 /* JTCalendarScrollManager.m in Sources */,
+				A6639C3C1FD661D900950426 /* JTHorizontalCalendarView.m in Sources */,
+				A6639C381FD661D900950426 /* JTCalendarWeekDayView.m in Sources */,
+				A6639C071FD6612200950426 /* JTDateHelper.m in Sources */,
+				A6639C321FD661D900950426 /* JTCalendarDayView.m in Sources */,
+				A6639C021FD6612200950426 /* JTCalendarSettings.m in Sources */,
+				A6639C031FD6612200950426 /* JTCalendarManager.m in Sources */,
+				A6639C361FD661D900950426 /* JTCalendarPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1639016F1FD4975200C554BC /* Debug */ = {
+		A6E462A71FD65D9E002BEE59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -362,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		163901701FD4975200C554BC /* Release */ = {
+		A6E462A81FD65D9E002BEE59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -414,12 +402,13 @@
 			};
 			name = Release;
 		};
-		163901C51FD49C1700C554BC /* Debug */ = {
+		A6E462AA1FD65D9E002BEE59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -428,17 +417,19 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantribouharet.JTCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		163901C61FD49C1700C554BC /* Release */ = {
+		A6E462AB1FD65D9E002BEE59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -447,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantribouharet.JTCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,25 +447,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		163901631FD4975200C554BC /* Build configuration list for PBXProject "JTCalendar" */ = {
+		A6E4629B1FD65D9E002BEE59 /* Build configuration list for PBXProject "JTCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1639016F1FD4975200C554BC /* Debug */,
-				163901701FD4975200C554BC /* Release */,
+				A6E462A71FD65D9E002BEE59 /* Debug */,
+				A6E462A81FD65D9E002BEE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		163901C41FD49C1700C554BC /* Build configuration list for PBXNativeTarget "JTCalendar" */ = {
+		A6E462A91FD65D9E002BEE59 /* Build configuration list for PBXNativeTarget "JTCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				163901C51FD49C1700C554BC /* Debug */,
-				163901C61FD49C1700C554BC /* Release */,
+				A6E462AA1FD65D9E002BEE59 /* Debug */,
+				A6E462AB1FD65D9E002BEE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 163901601FD4975200C554BC /* Project object */;
+	rootObject = A6E462981FD65D9E002BEE59 /* Project object */;
 }
